@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Snow Hills Resort | Contact</title>
+    <meta name="author" content="Jaiden Brown">
+    <meta name="description" content="Creating a webpage for a resort.">
+
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles.css">
+</head>
+        
+<body>
+    <main>
+        <header>
+        <h1><a href="index.html">Snow Hills Resort</a></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Accomodations</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <div class="content-group">
+            <div class="content-left">
+                <h2>Contact Us</h2>
+                <p>
+                    Please reach out to us with any questions or concerns. We are happy to help you plan your dream vacation with us!<br>
+                    Required fields marked with a *
+                </p>
+                <img src="images/swiss-sunset.jpg" alt="A beautiful Swiss Alps sunset behind mountain peaks." class="contact-image">
+            </div>
+            <div class="content-right">
+            <form action="https://wp.zybooks.com/form-viewer.php" method="post">
+            <div class="form-group">
+                <label for="full-name">Full Name *</label>
+                <input type="text" id="full-name" name="full-name" required>
+            </div>
+
+            <div class="form-group">
+                <label for="email">Email Address *</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+
+            <div class="form-group">
+                <label for="phone">Phone Number *</label>
+                <input type="tel" id="phone" name="phone" required>
+            </div>
+
+            <div class="form-group" id="radiopart">
+                <label>Preferred Contact Method *</label>
+                <div class="contact-method">
+                    <label><input type="radio" name="contact-method" value="email" required checked> Email</label>
+                    <label><input type="radio" name="contact-method" value="phone" required> Phone</label>
+                </div>
+            </div>
+        
+            <div class="form-group">
+                <label for="comments">Comments *</label>
+                <textarea id="comments" name="comments" rows="" required></textarea>
+            </div>
+                    
+            <button type="submit">Submit</button>
+        </form>
+        </div>
+        </div>
+    </main>
+
+        <footer>
+            <p>Copyright &copy;2023 - Snow Hills Resort<br>
+            This site is for educational purposes only.</p>
+        </footer>
+
+</body>
+</html>
